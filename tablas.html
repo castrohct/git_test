@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Las tablas</title>
+        <style>
+            td {
+                border: 1px solid black;
+            }
+            
+            table {
+                border-spacing: 0;
+                border-collapse: collapse;
+                table-layout:fixed;
+                width: 700px;
+                height: 500px;
+            }
+
+            div {
+                display: table;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+        <table>
+            <tr> <!--FILA 1-->
+                <td colspan="2" rowspan="3"></td>
+                <td colspan="2"></td>
+                <td colspan="2" rowspan="2"></td>
+                <td colspan="2" rowspan="2"></td>
+            </tr>
+            <tr><!--FILA 2-->
+                <td rowspan="4"></td>
+                <td rowspan="3"></td>
+            </tr>
+            <tr><!--FILA 3-->
+                <td colspan="2" rowspan="2"></td>
+                <td colspan="2" rowspan="2"></td>
+            </tr>
+            <tr><!--FILA 4-->
+                <td colspan="2" rowspan="2"></td>
+            </tr>
+            <tr><!--FILA 5-->
+                <td colspan="5" rowspan="2"></td>
+            </tr>
+            <tr><!--FILA 6-->
+                <td colspan="3" rowspan="2"></td>
+            </tr>
+            <tr><!--FILA 7-->
+                <td colspan="2" rowspan="2"></td>
+                <td colspan="3" rowspan="2"></td>
+            </tr>
+            <tr><!--FILA 8-->
+                <td colspan="3" rowspan="1"></td>
+            </tr>
+        </table>
+        </div>
+    </body>
+</html>
