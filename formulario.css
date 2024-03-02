@@ -1,0 +1,67 @@
+section.up {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+span {
+    margin: 1rem;
+}
+
+div.auth {
+    margin: auto;
+    text-align: right;
+    margin-right: 3rem;
+    line-height: 3;
+}
+
+div.botones {
+    height: 30%;
+    margin: auto;
+}
+
+input[type=reset], 
+input[type=button]  {
+    padding: 10px;
+}
+
+input[type=button]  {
+    margin-left: 80px;
+}
+
+input#usr, input#pwd {
+    width: 100px;
+    margin-left: 10px;
+    vertical-align: middle;
+    padding: 2px;
+}
+
+::placeholder {
+    color: red;
+}
+
+section.down {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 800px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+div.textarea {
+    width: 30%;
+}
+
+div.datos {
+    width: 70%;
+}
+
+p.textarea {
+    text-align: center;
+    margin: auto;
+}
